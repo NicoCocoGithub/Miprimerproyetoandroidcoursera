@@ -11,9 +11,27 @@
 
     <!-- Base application theme. -->
     <style name="MiTema" parent="Theme.AppCompat.NoActionBar">
-
     </style>
 
+
+    <style name="fondoDeApp">
+        <item name="android:background"> @drawable/marcianito_miprimer_proyecto_android </item>
+    </style>
+
+
+    <style name="textoDeBienvenida" >
+        <item name="android:textColor"> @color/colorBlanco </item>
+        <item name="android:textSize"> 45sp </item>
+        <item name="android:textStyle"> bold </item>
+    </style>
+
+    <style name = "boton">
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/estilo_boton </item>
+        <item name="android:height">20dp</item>
+        <item name="android:width">150dp</item>
+    </style>
 
 
 </resources>

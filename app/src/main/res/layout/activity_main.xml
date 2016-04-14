@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="mios.paracoursera.ejempos.miprimerproyetoandroidcoursera.MainActivity"
-    android:background="@drawable/marcianito_miprimer_proyecto_android">
+    style="@style/fondoDeApp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,7 +18,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/TextView_TextoBienvenida"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        style="@style/textoDeBienvenida" />
 
     <Button
         android:layout_width="wrap_content"
@@ -27,7 +28,7 @@
         android:id="@+id/button_BotonEntrar"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/estilo_boton"
-        android:textColor="@android:color/white"/>
+
+        style="@style/boton" />
 
 </RelativeLayout>
