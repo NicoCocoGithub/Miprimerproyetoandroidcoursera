@@ -28,7 +28,6 @@
         android:id="@+id/button_BotonEntrar"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-
         style="@style/boton" />
 
 </RelativeLayout>
