@@ -13,15 +13,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/texto_de_bienvenida"
         android:layout_marginTop="100dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TextView_TextoBienvenida" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/texto_de_boton"
         android:id="@+id/button_BotonEntrar"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
