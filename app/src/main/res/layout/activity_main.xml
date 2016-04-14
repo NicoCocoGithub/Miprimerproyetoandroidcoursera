@@ -17,7 +17,8 @@
         android:layout_marginTop="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/TextView_TextoBienvenida" />
+        android:id="@+id/TextView_TextoBienvenida"
+        android:textColor="@android:color/white"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -25,5 +26,8 @@
         android:text="@string/texto_de_boton"
         android:id="@+id/button_BotonEntrar"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/estilo_boton"
+        android:textColor="@android:color/white"/>
+
 </RelativeLayout>
